@@ -416,3 +416,58 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# Виконувані файли
+*.exe
+*.out
+a.out
+
+# Об'єктні файли
+*.o
+*.obj
+
+# Файли компіляції
+*.dll
+*.so
+*.dylib
+
+# Папки збірки
+build/
+bin/
+Debug/
+Release/
+x64/
+
+# IDE та редактори
+.vscode/
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+.idea/
+*.cbp
+*.layout
+*.depend
+
+# Системні файли
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Тимчасові файли
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Backup файли
+*.bak
+*.backup
